@@ -1,0 +1,35 @@
+/*
+ *Author: Eric Benson
+ *Formatting CSS file for printing the pages. Acts as an alternate to the screen display.
+ */
+body{
+    background-color: white;
+    color: black;
+    border: 0px;
+    margin: 0px;
+    padding: 5px;
+    width: auto;
+}
+/*
+ *Disables hyperlink formatting
+ */
+a {
+  color: black;
+  text-decoration: inherit;
+}
+/*
+ *Disables the following elements for print.
+ */
+.Directory{
+    display: none; 
+}
+.EricImage{
+    display: none; 
+}
+.Gallery{
+    display: none;
+}
+footer {
+    display: none;
+}
+ 

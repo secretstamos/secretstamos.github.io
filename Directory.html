@@ -1,0 +1,66 @@
+<!-- Author: Eric Benson -->
+<!-- Main directory homepage of my site -->
+<!DOCTYPE html>
+<html lang="en">
+    <title>Eric Benson</title>
+    <body>
+        <link rel="stylesheet" type="text/css" href="ExternalDisplay.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="ExternalPrint.css" media="print">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <!-- Directory found on all pages -->
+        <div class="Directory">
+            <a href="Directory.html" id="currentPage">Home</a>
+            <a href="Project1.html">Project 1</a>
+            <a href="Project2.html">Project 2</a>
+            <a href="Project3.html">Project 3</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+        <div class="ProjectDetails">
+            <!-- Pictures of me -->
+            <img class="EricImage" src="images/eric1.png" alt = "Eric">
+            <img class="EricImage" src="images/eric2.png" alt = "Eric">
+            <img class="EricImage" src="images/eric3.png" alt = "Eric">
+            <!-- Details about me -->
+            <h1>Summary</h1>
+            <!-- My main focus, my career -->
+            <p>
+                I am a game developer currently working as a programmer. I have worked on a
+                variety of game projects, some ongoing doing a variety of different tasks such as art and coding. I'm always
+                looking for the next big project to work on, so please don't hesitate to contact me if you think I could be a good
+                match for your team. Thanks!
+            </p>
+            <!-- Simple backstory about me -->
+            <h1>About Me</h1>
+            <p>
+                I attended Worcester Polytechnic Institute (WPI) for my undergraduate degree back in 2012. During my
+                time at WPI, I majored in Interactive Media and Game Development with a minor in Computer Science.
+                I've worked on close to a dozen video game projects, both as an artist and a coder, and spent half a year
+                abroad in Japan developing games.
+                Currently, I am employed as a programmer at Amica Mutual Insurance in Lincoln, Rhode Island.
+            </p>
+            <h1>Art Skills</h1>
+            <p>
+                Pixel Art, 3D Modeling, Digital Art, 2D Texturing, UI Design, 2D Animation, 3D Effects
+            </p>
+            <h1>Technical Skills</h1>
+            <p>
+                Java, C++, C, Gosu, Javascript, Python, HTML, Regex, DM, Racket
+            </p>   
+            <h1>My Resume</h1>
+            <embed src="resume.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+            <!-- Work in Progress Contact information -->
+            <footer id=contact>
+                <button class="corner_button">x</button>
+                <h3>Contact me</h3>
+                <form action="https://formspree.io/spicegarden@email.com" method="POST">
+                    Your message
+                    <input type="text" size="20" name="name">
+                    Your Email
+                    <input type="email" size="7" name="_replyto">
+                    <input type="submit" value="Send">
+                </form>
+            </footer>
+        </div>
+    </body>
+</html>

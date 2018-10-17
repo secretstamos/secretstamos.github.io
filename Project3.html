@@ -1,0 +1,76 @@
+<!-- Author: Eric Benson -->
+<!-- Project 3 of my portfolio -->
+<!DOCTYPE html>
+<html lang="en">
+    <title>Eric Benson</title>
+    <body>
+        <link rel="stylesheet" type="text/css" href="ExternalDisplay.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="ExternalPrint.css" media="print">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <!-- Directory found on all pages -->
+        <div class="Directory">
+            <a href="Directory.html">Home</a>
+            <a href="Project1.html">Project 1</a>
+            <a href="Project2.html">Project 2</a>
+            <a href="Project3.html" id="currentPage">Project 3</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+    
+        <!-- Lists basic headline information about the project -->
+        <div class="ProjectDetails">
+            <h1>My Projects - Project 3</h1>
+            <h2>Hikari Hook</h2>
+            <h4>Dates: September 2015</h4>
+            <h4>Role: Project Artist</h4>
+            <h4>Work Done: 3D Environment Creation, 3D Effect Creation, Story Writing</h4>
+        </div>
+        <!-- Detailed information on the project -->
+        <div class="Info">
+             <!-- Detailed information on the project (WIP) -->
+            <h2>What is the project?</h2>
+                <p>
+                    Hikari Hook is a 3D VR game utilizing both the Razor Hydra and the Occulus Rift. It is a story-based game involving a character exploring an ancient forest armed with a grapple hook.
+                    The plot is delivered through audio logs located on different platforms in the forest.
+                </p>
+                <p>
+                    Hikari Hook was made at Osaka University in the Fall of 2015 as part of a student-collaboration project. 
+                </p>
+        </div>
+        <!-- How I affected this project -->
+        <div class="Contribution">
+            <h2>What I did</h2>
+            <p>
+                I was the artist for Hikari Hook, and made all of the art assets, texture assets and animations myself.
+                As the only artist in the group of 5 members, I was expected to generate all assets by myself.
+                
+                In addition to handling the graphics creation, texture creation and image mapping, I also handled
+                some code for visual and particle effects. I did so with Javascript, and also wrote the transcript
+                for the game's story, setting and dialogue.
+                
+                Lastly, I was tasked with making sure the game operated at a comfortable framerate.
+            </p>
+        </div>
+        <!-- Simple gallery showing some of my work in the project -->
+        <div class="Gallery">
+            <h2>Examples of my work for this project:</h2>
+            <img class="GalleryImageVR" src="images/Project3-Image1.png" alt="Character Sprites">
+            <img class="GalleryImageVR" src="images/Project3-Image2.png" alt="Character Sprites">
+            <img class="GalleryImageVR" src="images/Project3-Image3.png" alt="Character Sprites">
+            <img class="GalleryImageVR" src="images/Project3-Image4.png" alt="Character Sprites">
+            <img class="GalleryImageVR" src="images/Project3-Image5.png" alt="Character Sprites">
+        </div>
+        <!-- Link to the main project-->
+        <footer id=contact>
+            <button class="corner_button">x</button>
+            <h3>Contact me</h3>
+            <form action="https://formspree.io/spicegarden@email.com" method="POST">
+                Your message
+                <input type="text" size="20" name="name">
+                Your Email
+                <input type="email" size="7" name="_replyto">
+                <input type="submit" value="Send">
+            </form>
+        </footer>
+    </body>
+</html>

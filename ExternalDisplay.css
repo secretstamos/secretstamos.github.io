@@ -1,0 +1,130 @@
+/*
+ *Author: Eric Benson
+ *Formatting CSS file for my pages.
+ */
+.wrapper {
+    padding: 10px;
+}
+/*
+ *Format for the body covers as a general fallback.
+ */
+body {
+    text-align: justify;
+    background: url("images/space.png");
+    color: NAVAJOWHITE;
+    font-family: vani;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+/*
+ *Directory division serves as a place to put navigation for the user to navigate through the pages.
+ */
+.Directory{
+  padding: 5px;
+  text-align: center;
+  background-color: NAVAJOWHITE;
+  border: 5px solid BROWN;
+  border-radius: 25px;
+}
+/*
+ *EricImage are the circular images on the first page
+ */
+.EricImage{
+  padding: 5px;
+  background-color: NAVAJOWHITE;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+ *GalleryImage is the standard format for an image in the gallery class
+ */
+.GalleryImage{
+  padding: 5px;
+  background-color: NAVAJOWHITE;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+ *GalleryImageVR is a specific type of GalleryImage specifically used on the VR page for the images there
+ */
+.GalleryImageVR{
+  padding: 5px;
+  background-color: NAVAJOWHITE;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  height:200px;
+}
+/*
+ *Currently the four main divisions of a page. They utilize the same formatting,
+ *but are likely to spit apart in future releases.
+ *Hence why they are the same, but with different names.
+ *I am anticipating changes to be made to override this "standard" functionality
+ */
+.ProjectDetails,.Info,.Contribution,.Gallery{
+  text-align: justify;
+  font-family: vani;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 5px solid NAVAJOWHITE;
+  background-color: BROWN;
+  border-radius: 25px;
+}
+/*
+ *Directory on the main page to show projects
+ */
+.DirectoryList{
+  background-color: NAVAJOWHITE;
+  color: BROWN;
+  border: 2px solid BROWN;
+  margin-left: 0%;
+  margin-right: 80%;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+/*
+ * Creates a footer that follows the user the length of the page. 
+ */
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: NAVAJOWHITE;
+  border: 5px solid BROWN;
+  /*box-shadow: 50px 50px 50px 50px NAVAJOWHITE;*/
+  border-radius: 10px;
+  color: BROWN;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.corner_button {
+  line-height: 20px;
+  width: 25px;
+  font-size: 10pt;
+  color: NAVAJOWHITE;
+  background-color: BROWN;
+  font-family: tahoma;
+  margin-top: 1px;
+  margin-right: 5px;
+  position:absolute;
+  top:0;
+  right:0;
+ }
+ 
+ #currentPage{
+   color: BLACK;
+   font-weight:bold;
+  }

@@ -1,0 +1,51 @@
+<!-- Author: Eric Benson -->
+<!-- Gallery for images not fixed to a project -->
+<!DOCTYPE html>
+<html lang="en">
+    <title>Eric Benson</title>
+    <body>
+        <link rel="stylesheet" type="text/css" href="ExternalDisplay.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="ExternalPrint.css" media="print">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <!-- Directory found on all pages -->
+        <div class="Directory">
+            <a href="Directory.html">Home</a>
+            <a href="Project1.html">Project 1</a>
+            <a href="Project2.html">Project 2</a>
+            <a href="Project3.html">Project 3</a>
+            <a href="Gallery.html" id="currentPage">Gallery</a>
+        </div>
+        <br>
+        <div id="mainGallery">
+            <img class="GalleryImageVR" src="images/Gallery/image1.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image2.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image3.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image4.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image5.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image6.png" alt="Gallery">
+            <br>
+            <img class="GalleryImageVR" src="images/Gallery/image7.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image8.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image9.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image10.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image11.png" alt="Gallery">
+            <img class="GalleryImageVR" src="images/Gallery/image13.png" alt="Gallery">    
+        </div>
+        <button id = "toggleResume">Resume</button>
+        <div id = "resume">
+            <embed src="resume.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">    
+        </div>
+        <footer id=contact>
+            <button class="corner_button">x</button>
+            <h3>Contact me</h3>
+            <form action="https://formspree.io/spicegarden@email.com" method="POST">
+                Your message
+                <input type="text" size="20" name="name">
+                Your Email
+                <input type="email" size="7" name="_replyto">
+                <input type="submit" value="Send">
+            </form>
+        </footer>
+    </body>
+</html>
